@@ -13,10 +13,11 @@
 
 .vloot-item {
   display: flex;
-  align-items: flex-start;
+  align-items: center; /* Dit zorgt dat afbeelding en tekst verticaal centreren */
   margin-bottom: 40px;
   gap: 20px;
 }
+
 
 .vloot-item img {
   width: 300px;
@@ -36,4 +37,69 @@
 /* Wissel layout: tekst links, afbeelding rechts */
 .vloot-item.reverse {
   flex-direction: row-reverse;
+}
+
+.crew-container {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.crew-container h1 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.crew-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 30px;
+}
+
+.crew-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  height: 420px; /* iets hoger */
+}
+
+.crew-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.crew-card img {
+  width: 100%;
+  height: 240px; /* iets hoger is vaak mooier */
+  object-fit: contain;  /* of cover als je verhoudingen matchen */
+  border-radius: 8px;
+  background: #eee; /* neutrale achtergrond voor lege ruimte */
+}
+
+.crew-card h2 {
+  margin: 15px 0 5px;
+  font-size: 1.2rem;
+  color: #222;
+}
+
+.crew-card h4 {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.crew-card p {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.4;
+  flex-grow: 1; /* tekst vult de ruimte */
 }
