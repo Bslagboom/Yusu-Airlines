@@ -1,0 +1,39 @@
+.vloot-container {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.vloot-container h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2rem;
+  color: #333;
+}
+
+.vloot-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  gap: 20px;
+}
+
+.vloot-item img {
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.vloot-item p {
+  flex: 1;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #444;
+}
+
+/* Wissel layout: tekst links, afbeelding rechts */
+.vloot-item.reverse {
+  flex-direction: row-reverse;
+}
