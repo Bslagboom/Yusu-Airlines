@@ -5,7 +5,5 @@ import App from './App';
 import Home from './Pages/Home'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
  <App/>
-  </BrowserRouter>
 );

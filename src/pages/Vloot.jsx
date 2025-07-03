@@ -3,7 +3,7 @@ function Vloot() {
     <div className="vloot-container">
       <h1>Yusu Vloot</h1>
       <div className="vloot-item">
-        <img src="/src/assets/image/airbus-a380.png" alt="Vliegtuig 1" />
+        <img src="/src/assets/images/airbus-a380.png" alt="Vliegtuig 1" />
         <p>
           BOEM! Daar landt-ie, de YUSU A380, en alles op het vliegveld trilt,
           zelfs de koffiebekers in de business lounge beven van angst. Deze
@@ -33,7 +33,7 @@ function Vloot() {
 
       <div className="vloot-item reverse">
         <img
-          src="/src/assets/image/ChatGPT Image Jun 30, 2025, 03_09_37 PM.png"
+          src="/src/assets/images/ChatGPT Image Jun 30, 2025, 03_09_37 PM.png"
           alt="Vliegtuig 2"
         />
         <p>
@@ -54,7 +54,7 @@ function Vloot() {
       </div>
       <div className="vloot-item">
         <img
-          src="/src/assets/image/ChatGPT Image Jun 30, 2025, 03_12_00 PM.png"
+          src="/src/assets/images/ChatGPT Image Jun 30, 2025, 03_12_00 PM.png"
           alt="Vliegtuig 3"
         />
         <p>
@@ -76,7 +76,7 @@ function Vloot() {
       </div>
       <div className="vloot-item reverse">
         <img
-          src="/src/assets/image/ChatGPT Image Jul 1, 2025, 11_00_03 AM.png"
+          src="/src/assets/images/ChatGPT Image Jul 1, 2025, 11_00_03 AM.png"
           alt="Vliegtuig 4"
         />
         <p>
@@ -106,7 +106,7 @@ function Vloot() {
 
       <div className="vloot-item">
         <img
-          src="/src/assets/image/ChatGPT Image Jun 30, 2025, 03_15_49 PM.png"
+          src="/src/assets/images/ChatGPT Image Jun 30, 2025, 03_15_49 PM.png"
           alt="Vliegtuig 5"
         />
         <p>
@@ -124,7 +124,7 @@ function Vloot() {
           waarschuwing. “Pas op, hier komen de luchtkoningen.” Niemand vliegt
           zo, behalve de topdogs van Yusu. De rest? Gewoon economy, baby.
         </p>
-      </div>-
+      </div>
     </div>
   );
 }

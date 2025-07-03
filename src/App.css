@@ -199,3 +199,97 @@
   font-size: 1.5rem;
   margin: 0;
 }
+
+.ticket-search-container {
+  position: relative;
+  background-image: url('/src/assets/images/yusuheader.png'); /* pas pad aan */
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ticket-search-container .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.ticket-search-content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: #fff;
+}
+
+.ticket-search-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.ticket-search-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.search-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  background: #1e88e5;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.search-box select,
+.search-box input {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+}
+
+.search-box button {
+  background: #0071c2;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.search-box button:hover {
+  background: #005fa3;
+}
+
+
+/* Autocomplete lijst styling */
+.input-group {
+  position: relative;
+}
+
+.autocomplete-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  max-height: 150px;
+  overflow-y: auto;
+  background: #005fa3;
+  border: 1px solid #ddd;
+  border-top: none;
+  z-index: 10;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.autocomplete-list li {
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.autocomplete-list li:hover {
+  background-color: #f0f0f0;
+}
